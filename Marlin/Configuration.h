@@ -507,6 +507,10 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define ABS_PREHEAT_HPB_TEMP 100
 #define ABS_PREHEAT_FAN_SPEED 0		// Insert Value between 0 and 255
 
+// By default the preheat menu will always preheat both hotend and bed
+// Uncomment the following to preheat only the hotend (bed can still be heated with its separate menu item)
+//#define PREHEAT_HOTEND_ONLY
+
 //LCD and SD support
 //#define ULTRA_LCD  //general LCD support, also 16x2
 //#define DOGLCD  // Support for SPI LCD 128x64 (Controller ST7565R graphic Display Family)
